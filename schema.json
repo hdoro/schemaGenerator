@@ -1,0 +1,498 @@
+{
+  "documents": {
+    "icon": {
+      "name": "icon",
+      "title": "icon",
+      "type": "document",
+      "fields": [
+        {
+          "name": "svg",
+          "title": "svg",
+          "type": "text"
+        },
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        }
+      ]
+    },
+    "config": {
+      "name": "config",
+      "title": "config",
+      "type": "document",
+      "fields": [
+        {
+          "name": "fallbackOgImage",
+          "title": "fallbackOgImage",
+          "type": "image"
+        },
+        {
+          "name": "fallbackSeoDescription",
+          "title": "fallbackSeoDescription",
+          "type": "string"
+        },
+        {
+          "name": "footerLinks",
+          "title": "footerLinks",
+          "type": "array",
+          "of": []
+        },
+        {
+          "name": "headerLinks",
+          "title": "headerLinks",
+          "type": "array",
+          "of": []
+        },
+        {
+          "name": "socialMedia",
+          "title": "socialMedia",
+          "type": "socialMedia"
+        }
+      ]
+    },
+    "home": {
+      "name": "home",
+      "title": "home",
+      "type": "document",
+      "fields": [
+        {
+          "name": "body",
+          "title": "body",
+          "type": "array",
+          "of": [
+            {
+              "type": "hero"
+            },
+            {
+              "type": "titleCta"
+            },
+            {
+              "type": "badges"
+            },
+            {
+              "type": "traction"
+            },
+            {
+              "type": "ctaCards"
+            },
+            {
+              "type": "pricing"
+            },
+            {
+              "type": "carousel"
+            },
+            {
+              "type": "steps"
+            }
+          ]
+        },
+        {
+          "name": "meta",
+          "title": "meta",
+          "type": "homeMeta"
+        }
+      ]
+    }
+  },
+  "objects": {
+    "socialMedia": {
+      "name": "socialMedia",
+      "title": "socialMedia",
+      "type": "object",
+      "fields": [
+        {
+          "name": "instagram",
+          "title": "instagram",
+          "type": "string"
+        }
+      ]
+    },
+    "navLink": {
+      "name": "navLink",
+      "title": "navLink",
+      "type": "object",
+      "fields": [
+        {
+          "name": "label",
+          "title": "label",
+          "type": "string"
+        },
+        {
+          "name": "url",
+          "title": "url",
+          "type": "string"
+        }
+      ]
+    },
+    "hero": {
+      "name": "hero",
+      "title": "hero",
+      "type": "object",
+      "fields": [
+        {
+          "name": "cta",
+          "title": "cta",
+          "type": "navLink"
+        },
+        {
+          "name": "image",
+          "title": "image",
+          "type": "image"
+        },
+        {
+          "name": "body",
+          "title": "body",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "badge",
+          "title": "badge",
+          "type": "object",
+          "fields": [
+            {
+              "name": "title",
+              "title": "title",
+              "type": "string"
+            },
+            {
+              "name": "icon",
+              "title": "icon",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "name": "isGray",
+          "title": "isGray",
+          "type": "boolean"
+        }
+      ]
+    },
+    "titleCta": {
+      "name": "titleCta",
+      "title": "titleCta",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "body",
+          "title": "body",
+          "type": "string"
+        }
+      ]
+    },
+    "badgeItem": {
+      "name": "badgeItem",
+      "title": "badgeItem",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "body",
+          "title": "body",
+          "type": "string"
+        },
+        {
+          "name": "icon",
+          "title": "icon",
+          "type": "reference"
+        }
+      ]
+    },
+    "badges": {
+      "name": "badges",
+      "title": "badges",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "items",
+          "title": "items",
+          "type": "array",
+          "of": [
+            {
+              "type": "badgeItem"
+            }
+          ]
+        }
+      ]
+    },
+    "image": {
+      "name": "image",
+      "title": "image",
+      "type": "object",
+      "fields": [
+        {
+          "name": "alt",
+          "title": "alt",
+          "type": "string"
+        },
+        {
+          "name": "asset",
+          "title": "asset",
+          "type": "reference"
+        }
+      ]
+    },
+    "traction": {
+      "name": "traction",
+      "title": "traction",
+      "type": "object",
+      "fields": [
+        {
+          "name": "left",
+          "title": "left",
+          "type": "object",
+          "fields": [
+            {
+              "name": "title",
+              "title": "title",
+              "type": "string"
+            },
+            {
+              "name": "subtitle",
+              "title": "subtitle",
+              "type": "string"
+            },
+            {
+              "name": "icon",
+              "title": "icon",
+              "type": "reference"
+            }
+          ]
+        },
+        {
+          "name": "rightTitle",
+          "title": "rightTitle",
+          "type": "string"
+        },
+        {
+          "name": "images",
+          "title": "images",
+          "type": "array",
+          "of": [
+            {
+              "type": "image"
+            }
+          ]
+        }
+      ]
+    },
+    "ctaCard": {
+      "name": "ctaCard",
+      "title": "ctaCard",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "body",
+          "title": "body",
+          "type": "string"
+        },
+        {
+          "name": "image",
+          "title": "image",
+          "type": "image"
+        },
+        {
+          "name": "cta",
+          "title": "cta",
+          "type": "navLink"
+        }
+      ]
+    },
+    "ctaCards": {
+      "name": "ctaCards",
+      "title": "ctaCards",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "items",
+          "title": "items",
+          "type": "array",
+          "of": [
+            {
+              "type": "ctaCard"
+            }
+          ]
+        }
+      ]
+    },
+    "pricingItem": {
+      "name": "pricingItem",
+      "title": "pricingItem",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "listTitle",
+          "title": "listTitle",
+          "type": "string"
+        },
+        {
+          "name": "icon",
+          "title": "icon",
+          "type": "reference"
+        },
+        {
+          "name": "list",
+          "title": "list",
+          "type": "array",
+          "of": [
+            {
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "name": "pricing",
+      "title": "pricing",
+      "type": "object",
+      "fields": [
+        {
+          "name": "items",
+          "title": "items",
+          "type": "array",
+          "of": [
+            {
+              "type": "pricingItem"
+            }
+          ]
+        }
+      ]
+    },
+    "carouselItem": {
+      "name": "carouselItem",
+      "title": "carouselItem",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "icon",
+          "title": "icon",
+          "type": "reference"
+        }
+      ]
+    },
+    "carousel": {
+      "name": "carousel",
+      "title": "carousel",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "items",
+          "title": "items",
+          "type": "array",
+          "of": [
+            {
+              "type": "carouselItem"
+            }
+          ]
+        }
+      ]
+    },
+    "stepItem": {
+      "name": "stepItem",
+      "title": "stepItem",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "icon",
+          "title": "icon",
+          "type": "reference"
+        }
+      ]
+    },
+    "steps": {
+      "name": "steps",
+      "title": "steps",
+      "type": "object",
+      "fields": [
+        {
+          "name": "title",
+          "title": "title",
+          "type": "string"
+        },
+        {
+          "name": "items",
+          "title": "items",
+          "type": "array",
+          "of": [
+            {
+              "type": "stepItem"
+            }
+          ]
+        }
+      ]
+    },
+    "homeMeta": {
+      "name": "homeMeta",
+      "title": "homeMeta",
+      "type": "object",
+      "fields": [
+        {
+          "name": "ogImage",
+          "title": "ogImage",
+          "type": "image"
+        },
+        {
+          "name": "seoDescription",
+          "title": "seoDescription",
+          "type": "text"
+        },
+        {
+          "name": "seoTitle",
+          "title": "seoTitle",
+          "type": "string"
+        }
+      ]
+    }
+  }
+}

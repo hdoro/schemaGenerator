@@ -1,0 +1,801 @@
+[
+  {
+    "_createdAt": "2019-09-27T19:26:44Z",
+    "_id": "testimonial-1",
+    "_rev": "testimonial-1_rev",
+    "_type": "testimonial",
+    "_updatedAt": "2019-09-27T19:26:48Z",
+    "name": "João Pessoa",
+    "occupation": "CEO do AirBnB",
+    "companyLogo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622-jpg",
+        "_type": "reference"
+      }
+    },
+    "picture": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622-jpg",
+        "_type": "reference"
+      }
+    },
+    "body": "Meu **lindo** depoimento!"
+  },
+  {
+    "_createdAt": "2019-09-27T19:26:44Z",
+    "_id": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+    "_rev": "vBdfXvCTfzf8AcifiXlvDk",
+    "_type": "icon",
+    "_updatedAt": "2019-09-27T19:26:48Z",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 66 66\" fill=\"currentColor\">\n<path d=\"M64 5.6H2a2 2 0 0 0-1.4.6c-.4.4-.6 1-.6 1.5V49c0 .5.2 1 .6 1.5.4.4 1 .6 1.5.6h1.8V58c0 .5.3 1 .6 1.5a2 2 0 0 0 3 0c.3-.4.6-1 .6-1.5v-7h49.8v7c0 .5.3 1 .6 1.5a2 2 0 0 0 3 0c.3-.4.6-1 .6-1.5v-7h1.8a2 2 0 0 0 2.1-2.1V7.7c0-.6-.2-1-.6-1.5a2 2 0 0 0-1.5-.6zm-2.1 4.2v16.4H4V9.8h58zM4 46.9V30.5h58v16.4H4zm21.2-29.5c0-.5.2-1 .6-1.5a2 2 0 0 1 1.4-.6h11.4c.5 0 1 .2 1.4.6a2.1 2.1 0 0 1 0 3 2 2 0 0 1-1.4.6H27.3A2 2 0 0 1 26 19c-.4-.4-.6-1-.6-1.5zm15.4 22c0 .5-.2 1-.6 1.4a2 2 0 0 1-1.4.6H27.3a2 2 0 0 1-1.4-.6 2.1 2.1 0 0 1 0-3 2 2 0 0 1 1.4-.5h11.4c.5 0 1 .2 1.4.6.4.4.6.9.6 1.5z\"/>\n</svg>",
+    "title": "Móvel"
+  },
+  {
+    "_createdAt": "2019-09-27T18:19:33Z",
+    "_id": "config",
+    "_rev": "qUEsynk7viwtWiVaeNXr8Z",
+    "_type": "config",
+    "_updatedAt": "2019-10-08T20:14:55Z",
+    "fallbackOgImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622-jpg",
+        "_type": "reference"
+      }
+    },
+    "fallbackSeoDescription": "Obras e reformas rápidas, de qualidade e que cabem no seu bolso - Conjunto",
+    "footerLinks": [],
+    "headerLinks": [],
+    "socialMedia": {
+      "_type": "socialMedia",
+      "instagram": "https://www.instagram.com/somosconjunto/"
+    }
+  },
+  {
+    "_createdAt": "2019-10-02T16:28:28Z",
+    "_id": "home",
+    "_rev": "37ndnpTZHq38OhHjeR3FyX",
+    "_type": "home",
+    "_updatedAt": "2019-10-09T19:20:49Z",
+    "body": [
+      {
+        "_key": "262eced11ddc",
+        "_type": "hero",
+        "cta": {
+          "_key": "19d05bc31383",
+          "_type": "navLink",
+          "label": "Faça um orçamento",
+          "url": "#contato"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "Foto de uma senhora em uma cadeira",
+          "asset": {
+            "_ref": "image-d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374-jpg",
+            "_type": "reference"
+          }
+        },
+        "body": "Cadastre-se clicando no botão abaixo para se eleger a uma vaga no Programa de Parceiro BiPTT.",
+        "title": "Seja um revendedor autorizado BiPTT e leve o melhor aplicativo de push to talk (PTT) para seus clientes",
+        "badge": {
+          "title": "Certificado pela Polícia Federal",
+          "icon": {
+            "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+            "_type": "reference"
+          }
+        }
+      },
+      {
+        "_key": "262eced11daadc",
+        "_type": "hero",
+        "cta": {
+          "_key": "19d05bc31383",
+          "_type": "navLink",
+          "label": "Faça um orçamento",
+          "url": "#contato"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "Foto de uma senhora em uma cadeira",
+          "asset": {
+            "_ref": "image-d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374-jpg",
+            "_type": "reference"
+          }
+        },
+        "body": "Cadastre-se clicando no botão abaixo para se eleger a uma vaga no Programa de Parceiro BiPTT.",
+        "title": "Seja um revendedor autorizado BiPTT e leve o melhor aplicativo de push to talk (PTT) para seus clientes",
+        "badge": {
+          "title": "Certificado pela Polícia Federal",
+          "icon": {
+            "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+            "_type": "reference"
+          }
+        },
+        "isGray": true
+      },
+      {
+        "_key": "262ecedd11daaaaadc",
+        "_type": "titleCta",
+        "title": "O processo inicial todo gratuito, somente depois, dos 7 dias de teste, você faz a contratação do serviço e poderá fazer todo o processo pelo app ou site.",
+        "isLarge": true,
+        "body": "Optional **paragraph**",
+        "cta": {
+          "_key": "19d05bc31383",
+          "_type": "navLink",
+          "label": "Faça um orçamento",
+          "url": "#contato"
+        }
+      },
+      {
+        "_key": "262eceddaaadc",
+        "_type": "titleCta",
+        "title": "Faça seu cadastro agora e tenha 7 dias de degustação sem custos.",
+        "body": "Optional **paragraph**"
+      },
+      {
+        "_key": "asdjlhasdu80qww",
+        "_type": "badges",
+        "title": "Tenha uma solução de Push To Talk com mais recursos e ainda pague menos por isso.",
+        "isLeft": true,
+        "body": "Optional **paragraph**",
+        "cta": {
+          "_key": "19d05bc31383",
+          "_type": "navLink",
+          "label": "Faça um orçamento",
+          "url": "#contato"
+        },
+        "items": [
+          {
+            "title": "Comunicação mais segura",
+            "body": "Chamadas não podem ser interceptadas e ainda são criptografadas",
+            "_type": "badgeItem",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "Comunicação mais segura",
+            "_type": "badgeItem",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "Comunicação mais segura",
+            "body": "Chamadas não podem ser interceptadas e ainda são criptografadas",
+            "_type": "badgeItem",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "asdasdqw",
+        "_type": "badges",
+        "title": "Tenha uma solução de Push To Talk com mais recursos e ainda pague menos por isso.",
+        "items": [
+          {
+            "title": "Comunicação mais segura",
+            "_type": "badgeItem",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "Comunicação mais segura",
+            "body": "Chamadas não podem ser interceptadas e ainda são criptografadas",
+            "_type": "badgeItem",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "asidi0qweip",
+        "_type": "traction",
+        "left": {
+          "title": "10.000+",
+          "subtitle": "usuários gratuitos",
+          "icon": {
+            "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+            "_type": "reference"
+          }
+        },
+        "rightTitle": "Empresas que já migraram para a BiPTT",
+        "images": [
+          {
+            "_type": "image",
+            "alt": "Foto de uma senhora em uma cadeira",
+            "asset": {
+              "_ref": "image-d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374-jpg",
+              "_type": "reference"
+            }
+          },
+          {
+            "_type": "image",
+            "alt": "Foto de uma senhora em uma cadeira",
+            "asset": {
+              "_ref": "image-d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374-jpg",
+              "_type": "reference"
+            }
+          },
+          {
+            "_type": "image",
+            "alt": "Foto de uma senhora em uma cadeira",
+            "asset": {
+              "_ref": "image-d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374-jpg",
+              "_type": "reference"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "asdqwdopk90",
+        "_type": "ctaCards",
+        "title": "O processo inicial todo gratuito",
+        "items": [
+          {
+            "_type": "ctaCard",
+            "title": "BiPTT versão **gratuita**",
+            "body": "Com 10 mil de usuários , o aplicativo gratuito de pressionar para falar do BiPTT é uma rede de rádio social global.",
+            "image": {
+              "_type": "image",
+              "alt": "Foto de uma senhora em uma cadeira",
+              "asset": {
+                "_ref": "image-d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374-jpg",
+                "_type": "reference"
+              }
+            },
+            "cta": {
+              "_key": "19d05bc31383",
+              "_type": "navLink",
+              "label": "Faça um orçamento",
+              "url": "#contato"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "asdqwdopasdk90",
+        "_type": "pricing",
+        "items": [
+          {
+            "_type": "pricingItem",
+            "title": "BiPTT versão gratuita",
+            "listTitle": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            },
+            "list": [
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês"
+            ]
+          },
+          {
+            "_type": "pricingItem",
+            "title": "BiPTT versão gratuita",
+            "listTitle": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            },
+            "list": [
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês"
+            ]
+          },
+          {
+            "_type": "pricingItem",
+            "title": "BiPTT versão gratuita",
+            "listTitle": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            },
+            "list": [
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês",
+              "250 transações por mês"
+            ]
+          }
+        ]
+      },
+      {
+        "_key": "asdqwdopaascqwsdk90",
+        "_type": "carousel",
+        "title": "Podemos resolver suas dores",
+        "subtitle": "Painel Manager",
+        "isLight": true,
+        "items": [
+          {
+            "_type": "carouselItem",
+            "title": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "_type": "carouselItem",
+            "title": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "_type": "carouselItem",
+            "title": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "asdqwscqwsdk90",
+        "_type": "carousel",
+        "title": "Podemos resolver suas dores",
+        "items": [
+          {
+            "_type": "carouselItem",
+            "title": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "_type": "carouselItem",
+            "title": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "_type": "carouselItem",
+            "title": "BiPTT versão gratuita",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "i7ng",
+        "_type": "steps",
+        "title": "Migre sua operação fácil e de graça.",
+        "items": [
+          {
+            "title": "BiPTT versão gratuita",
+            "_type": "stepItem",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "BiPTT versão gratuita",
+            "body": "Na degustação você tem direito a 10 users e 1 dispatcher\n**No app ou no site**",
+            "_type": "stepItem",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "BiPTT versão gratuita",
+            "_type": "stepItem",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "bvn56",
+        "_type": "blurbCards",
+        "title": "Podemos resolver suas dores",
+        "body": "lorem **ipsum** _dolor_ bla bla",
+        "items": [
+          {
+            "title": "BiPTT versão gratuita",
+            "_type": "blurbCard",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "BiPTT versão gratuita",
+            "body": "Na degustação você tem direito a 10 users e 1 dispatcher\n**No app ou no site**",
+            "_type": "blurbCard",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "BiPTT versão gratuita",
+            "_type": "blurbCard",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "afwe34",
+        "_type": "blurbCards",
+        "title": "Podemos resolver suas dores",
+        "body": "lorem **ipsum** _dolor_ bla bla",
+        "isLeft": true,
+        "items": [
+          {
+            "title": "BiPTT versão gratuita",
+            "_type": "blurbCard",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "BiPTT versão gratuita",
+            "body": "Na degustação você tem direito a 10 users e 1 dispatcher\n**No app ou no site**",
+            "_type": "blurbCard",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          },
+          {
+            "title": "BiPTT versão gratuita",
+            "_type": "blurbCard",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            }
+          }
+        ]
+      },
+      {
+        "_key": "sdxve",
+        "_type": "contact",
+        "title": "Podemos resolver suas dores",
+        "subtitle": "Corra! As vagas são limitadas",
+        "body": "lorem **ipsum** _dolor_ bla bla",
+        "includeName": true,
+        "type": "contact_large",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622-jpg",
+            "_type": "reference"
+          }
+        }
+      },
+      {
+        "_key": "gdfgret",
+        "_type": "contact",
+        "title": "Podemos resolver suas dores",
+        "subtitle": "Corra! As vagas são limitadas",
+        "body": "lorem **ipsum** _dolor_ bla bla",
+        "includeName": true,
+        "type": "contact_compact",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622-jpg",
+            "_type": "reference"
+          }
+        }
+      },
+      {
+        "_key": "xzczxcxz",
+        "_type": "contact",
+        "title": "Podemos resolver suas dores",
+        "subtitle": "Corra! As vagas são limitadas",
+        "body": "lorem **ipsum** _dolor_ bla bla",
+        "includeName": true,
+        "type": "contact_no-image",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622-jpg",
+            "_type": "reference"
+          }
+        }
+      },
+      {
+        "_key": "asdasdsadfew",
+        "_type": "testimonials",
+        "title": "Podemos resolver suas dores",
+        "items": [
+          {
+            "title": "Segurança",
+            "_type": "testimonialVertical",
+            "icon": {
+              "_ref": "0ddac405-d9b6-456c-9629-33764bd27cf3",
+              "_type": "reference"
+            },
+            "list": [
+              {
+                "_ref": "testimonial-1",
+                "_type": "reference"
+              },
+              {
+                "_ref": "testimonial-1",
+                "_type": "reference"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "_type": "homeMeta",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622-jpg",
+          "_type": "reference"
+        }
+      },
+      "seoDescription": "Obras e reformas rápidas, de qualidade e que cabem no seu bolso. Reforma de cômodos, construção, móveis planejados e mais, conheça a Conjunto 😉",
+      "seoTitle": "Morar bem não sai caro, quando bem planejado - Conjunto"
+    }
+  },
+  {
+    "_createdAt": "2019-10-09T19:17:57Z",
+    "_id": "image-3f6c156003b4916ba096db52ccf8fca9fc6c91c7-3683x1618-jpg",
+    "_rev": "BnBEeDWqCiXznMsPlImkCj",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2019-10-09T19:17:57Z",
+    "assetId": "3f6c156003b4916ba096db52ccf8fca9fc6c91c7",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.276266996291718,
+        "height": 1618,
+        "width": 3683
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAJABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYFBwj/xAAmEAABAwIEBgMAAAAAAAAAAAABAAIDBAUGETE2BxIhIjVydIGx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAcEQEAAgEFAAAAAAAAAAAAAAABAAIRAwQSIjH/2gAMAwEAAhEDEQA/AEixvgbRRl5GQJ1T/YLNcMU1ElfFRzMA5RTSDoHBuqqaLxTvta+4XbDsvxwrd70Gx7mKW4mcRMbd4qfOCrBhni7HsdqCEKGx5u24+4/AhTVqIMB0xn//2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#533246",
+          "foreground": "#fff",
+          "population": 0.68,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#221251",
+          "foreground": "#fff",
+          "population": 4.25,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d69b85",
+          "foreground": "#000",
+          "population": 4.79,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cba7a9",
+          "foreground": "#000",
+          "population": 0.27,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d69b85",
+          "foreground": "#000",
+          "population": 4.79,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a26b6d",
+          "foreground": "#fff",
+          "population": 2.8,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c28561",
+          "foreground": "#fff",
+          "population": 0.12,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "foto-senhora - cortada.jpg",
+    "path": "images/ncd29bcb/production/3f6c156003b4916ba096db52ccf8fca9fc6c91c7-3683x1618.jpg",
+    "sha1hash": "3f6c156003b4916ba096db52ccf8fca9fc6c91c7",
+    "size": 160370,
+    "url": "https://cdn.sanity.io/images/ncd29bcb/production/3f6c156003b4916ba096db52ccf8fca9fc6c91c7-3683x1618.jpg"
+  },
+  {
+    "_createdAt": "2019-09-27T18:21:19Z",
+    "_id": "image-564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622-jpg",
+    "_rev": "D0aLztdFTRFjxKXaA8ksx1",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2019-09-27T18:21:19Z",
+    "assetId": "564d4efd8d3baf05fb035025aa642fa0e667adcd",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.9807073954983923,
+        "height": 622,
+        "width": 1232
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAwf/xAAjEAABAwIFBQAAAAAAAAAAAAABAAIDBBEFEhQhIjE0QWFx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwQG/8QAHhEAAgEDBQAAAAAAAAAAAAAAAQIAAwQRBRMhQVH/2gAMAwEAAhEDEQA/AIajLBEM3tN6OnlrXGVsbmgWDD0vZS4Jyjfyum4eAKCCwA4BNqtU2yhl5JM2lqu4cHqK9Q1nCS7Xt2IKFhiPey/UKBKKsob2OXIOJ//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7c3c74",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#761478",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e3634b",
+          "foreground": "#fff",
+          "population": 10.31,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f46452",
+          "foreground": "#fff",
+          "population": 0.04,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#aa5d57",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e3634b",
+          "foreground": "#fff",
+          "population": 10.31,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "hero-image.jpg",
+    "path": "images/ncd29bcb/production/564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622.jpg",
+    "sha1hash": "564d4efd8d3baf05fb035025aa642fa0e667adcd",
+    "size": 338110,
+    "url": "https://cdn.sanity.io/images/ncd29bcb/production/564d4efd8d3baf05fb035025aa642fa0e667adcd-1232x622.jpg"
+  },
+  {
+    "_createdAt": "2019-10-08T19:56:21Z",
+    "_id": "image-d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374-jpg",
+    "_rev": "2CBwF56WgUjGAimG6Vryai",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2019-10-08T19:56:21Z",
+    "assetId": "d0e2182b7fe86899c42bab38d621b5fada06973a",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.5585509688289807,
+        "height": 2374,
+        "width": 3700
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYFBwj/xAAgEAACAQQCAwEAAAAAAAAAAAABAwIABAURBjESEyIh/8QAFQEBAQAAAAAAAAAAAAAAAAAABAL/xAAcEQEAAwACAwAAAAAAAAAAAAABAAIRAwQSMVH/2gAMAwEAAhEDEQA/AEjCMRGyWWEaBPdP+AwuR5Q9mQVZuWPkWzB+CQj3VT4Cyhc2aX3M2ThLcvWJeI76rUc+VzwPCca60sU6KI+MN6ERSu3cF8PcQVtXHN2Qoy67faLoFL1fE4S7BFFJQzbc6+4yFwuMGNadxidgaoqDj+wVgHJ//9k=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#593347",
+          "foreground": "#fff",
+          "population": 0.71,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#150949",
+          "foreground": "#fff",
+          "population": 5.21,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#150949",
+          "foreground": "#fff",
+          "population": 5.21,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cdabab",
+          "foreground": "#000",
+          "population": 0.33,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d29884",
+          "foreground": "#000",
+          "population": 4.1,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6863a0",
+          "foreground": "#fff",
+          "population": 0.08,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c58561",
+          "foreground": "#fff",
+          "population": 0.07,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "foto-senhora - comprimida.jpg",
+    "path": "images/ncd29bcb/production/d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374.jpg",
+    "sha1hash": "d0e2182b7fe86899c42bab38d621b5fada06973a",
+    "size": 252376,
+    "url": "https://cdn.sanity.io/images/ncd29bcb/production/d0e2182b7fe86899c42bab38d621b5fada06973a-3700x2374.jpg"
+  }
+]
